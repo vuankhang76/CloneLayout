@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 6px;
+}
+
+.header-icon .search-labs {
+    width: 20px;
+    height: 20px;
+}
+.user-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.user-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-icon {
+    width: 24px;
+    height: 24px;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: gray;
+    margin-right: 7px;
+}
+
+.header-icon:hover {
+    background-color: rgba(60,64,67,0.08);
+}
+
+.header a {
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.search-labs-icon:hover {
+    background-color: rgba(60,64,67,0.08);
+}
+
+.container img {
+    width: 270px;
+    margin-bottom: 27px;
+}
+
+.search-container {
+    width: 750px;
+    margin-top: 10px;
+}
+
+.search-bar {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 0 20px;
+    font-size: 16px;
+    outline: none;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    padding-left: 50px;
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-wrapper .mic {
+    position: absolute;
+    right: 60px;
+    width: 13px;
+    top: 13px;
+    cursor: pointer;
+}
+
+.input-wrapper .lens {
+    position: absolute;
+    right: 20px;
+    width: 20px;
+    top: 13px;
+    cursor: pointer;
+}
+
+.search-icon {
+    position: absolute;
+    left: 20px;
+    width: 15px;
+    height: 15px;
+    fill: gray;
+}
